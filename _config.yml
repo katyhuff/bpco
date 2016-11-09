@@ -1,0 +1,21 @@
+# Site title
+title: "Building Powerful Community Organizations Study Group"
+
+# Building Powerful Community Organizations
+bpco_title: "Building Powerful Community Organizations"
+bpco_site: "http://buildingpowerfulcommunityorganizations.com/"
+bpco_book: "https://www.amazon.com/Building-Powerful-Community-Organizations-Personal/dp/0977151808/"
+
+# Magic to make URLs resolve both locally and on GitHub.
+# See https://help.github.com/articles/repository-metadata-on-github-pages/.
+repository: <USERNAME>/<PROJECT>
+
+# Set the default layout for things in the episodes collection.
+defaults:
+  - values:
+      root: ..
+
+# Files and directories that are not to be copied.
+exclude:
+  - Makefile
+  - bin
