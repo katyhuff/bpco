@@ -32,6 +32,7 @@ order:
   - "/finding-your-core-beliefs/"
   - "/building-your-core-group/"
   - "/crafting-a-mission-statement/"
+  - "/finding-your-structure-1/"
 
 # Files and directories that are not to be copied.
 exclude:
