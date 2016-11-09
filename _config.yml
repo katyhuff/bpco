@@ -35,6 +35,9 @@ order:
   - "/finding-your-structure-1/"
   - "/finding-your-structure-2/"
   - "/finding-your-structure-3/"
+  - "/finding-your-structure-4/"
+  - "/finding-your-structure-5/"
+  - "/finding-your-structure-6/"
 
 # Files and directories that are not to be copied.
 exclude:
