@@ -19,3 +19,9 @@ defaults:
 exclude:
   - Makefile
   - bin
+
+# Specify that exercises should be output.
+collections:
+  exercises:
+    output: true
+    permalink: /:path/
