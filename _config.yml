@@ -1,5 +1,5 @@
 # Site title
-title: "Building Powerful Community Organizations Study Group"
+title: "Building Powerful Community Organizations"
 
 # Building Powerful Community Organizations
 bpco_title: "Building Powerful Community Organizations"
@@ -10,18 +10,26 @@ bpco_book: "https://www.amazon.com/Building-Powerful-Community-Organizations-Per
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
 repository: <USERNAME>/<PROJECT>
 
+# How to contact us.
+email: "gvwilson@third-bit.com"
+
 # Set the default layout for things in the episodes collection.
 defaults:
   - values:
       root: ..
-
-# Files and directories that are not to be copied.
-exclude:
-  - Makefile
-  - bin
 
 # Specify that exercises should be output.
 collections:
   exercises:
     output: true
     permalink: /:path/
+
+# Order of exercises.
+order:
+  - "/putting-your-vision-into-words/"
+  - "/finding-the-stories-that-guide-you/"
+
+# Files and directories that are not to be copied.
+exclude:
+  - Makefile
+  - bin

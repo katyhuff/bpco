@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /02-finding-the-stories-that-guide-you/
+permalink: /finding-the-stories-that-guide-you/
 title: "Finding the Stories That Guide You"
 ---
 

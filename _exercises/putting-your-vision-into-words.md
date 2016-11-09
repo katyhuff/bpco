@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /01-putting-your-vision-into-words/
+permalink: /putting-your-vision-into-words/
 title: "Putting Your Vision Into Words"
 ---
 
