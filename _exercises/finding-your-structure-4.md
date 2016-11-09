@@ -25,7 +25,7 @@ title: "Finding Your Structure (Part 4)"
     *   Yes
     *   No
 
-6.  If you have a fiscal agent, does this agent influence your organization's activites?
+6.  If you have a fiscal agent, does this agent influence your organization's activities?
     *   Yes
     *   No
 
