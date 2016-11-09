@@ -26,3 +26,10 @@ title: "Finding Your Core Beliefs"
     *   No
 
 Comments: [____________________]
+
+7.  How will these beliefs affect the group?
+    [____________________]
+
+8.  Do other members of the group also share these beliefs?
+    *   Yes
+    *   No

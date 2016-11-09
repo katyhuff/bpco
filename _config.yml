@@ -30,6 +30,7 @@ order:
   - "/finding-the-stories-that-guide-you/"
   - "/looking-into-yourself-is-the-first-step-of-a-good-leader/"
   - "/finding-your-core-beliefs/"
+  - "/building-your-core-group/"
 
 # Files and directories that are not to be copied.
 exclude:
