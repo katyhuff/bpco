@@ -1,6 +1,7 @@
 # Settings
 MAKEFILES=Makefile
 JEKYLL=jekyll
+SRC=$(wildcard *.md) $(wildcard */*.md)
 DST=_site
 
 # Controls
@@ -18,6 +19,10 @@ serve :
 ## site     : build files but do not run a server.
 site :
 	${JEKYLL} build
+
+## spell    : check spelling.
+spell:
+	@cat ${SRC} | aspell list | sort | uniq
 
 ## clean    : clean up junk files.
 clean :
