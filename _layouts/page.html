@@ -23,16 +23,17 @@
 	<div class="col-md-10">
 	  <h1>
 	    <a href="{{ page.root }}">{{ site.title }}</a>
-	    {% if page.title %}<br/>{{ page.title }}{% endif %}
 	  </h1>
 	  <p>
 	    A study group around Michael Jacoby Brown's
 	    <em><a href="{{ site.bpco_site }}">{{ site.bpco_title }}</a></em>
 	    starting in January 2017.
-	  </p>
-	  <p>
+	    <br/>
 	    For more information, please <a href="mailto:{{ site.email }}">contact the organizer</a>.
 	  </p>
+	  {% if page.title %}
+            <h2>{{ page.title }}</h2>
+	  {% endif %}
 	</div>
       </div>
 {{ content }}
