@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /looking-into-yourself-is-the-first-step-of-a-good-leader/
-title: "Looking Into Yourself is the First Step of a Good Leader"
+permalink: /looking-into-yourself/
+title: "Looking Into Yourself"
 ---
 
 We all come into organizations (and relationships of all kinds) with baggage.

@@ -16,11 +16,12 @@
   </head>
   <body>
     <div class="container">
+      <br/>
       <div class="row">
-	<div class="col-md-2">
+	<div class="col-md-3">
 	  <a href="{{ site.bpco_book }}"><img src="{{ page.root }}/assets/img/bpco.jpg" alt="Building Powerful Community Organizations" /></a>
 	</div>
-	<div class="col-md-10">
+	<div class="col-md-9">
 	  <h1>
 	    <a href="{{ page.root }}">{{ site.title }}</a>
 	  </h1>
@@ -36,7 +37,15 @@
 	  {% endif %}
 	</div>
       </div>
+      <br/>
+      <div class="row">
+	<div class="col-md-3">
+{% include navlinks.html %}
+	</div>
+	<div class="col-md-9">
 {{ content }}
+	</div>
+      </div>
     </div>
   </body>
 </html>

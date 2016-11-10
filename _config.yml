@@ -28,7 +28,7 @@ collections:
 order:
   - "/putting-your-vision-into-words/"
   - "/finding-the-stories-that-guide-you/"
-  - "/looking-into-yourself-is-the-first-step-of-a-good-leader/"
+  - "/looking-into-yourself/"
   - "/finding-your-core-beliefs/"
   - "/building-your-core-group/"
   - "/crafting-a-mission-statement/"
@@ -38,6 +38,9 @@ order:
   - "/finding-your-structure-4/"
   - "/finding-your-structure-5/"
   - "/finding-your-structure-6/"
+  - "/why-recruit/"
+  - "/personal-reasons-for-recruiting/"
+  - "/what-led-you-to-join/"
 
 # Files and directories that are not to be copied.
 exclude:
