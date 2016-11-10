@@ -48,6 +48,7 @@ order:
   - "/look-inside-yourself/"
   - "/asking-people-for-money/"
   - "/personal-reflection-on-service-and-organizing/"
+  - "/identifying-real-help/"
 
 # Files and directories that are not to be copied.
 exclude:
