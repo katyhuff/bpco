@@ -42,6 +42,8 @@ order:
   - "/personal-reasons-for-recruiting/"
   - "/what-led-you-to-join/"
   - "/whats-in-it-for-you/"
+  - "/how-to-plan-a-visit/"
+  - "/dividing-tasks/"
 
 # Files and directories that are not to be copied.
 exclude:
