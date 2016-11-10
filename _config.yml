@@ -44,6 +44,9 @@ order:
   - "/whats-in-it-for-you/"
   - "/how-to-plan-a-visit/"
   - "/dividing-tasks/"
+  - "/creating-a-custom-leadership-plan/"
+  - "/look-inside-yourself/"
+  - "/asking-people-for-money/"
 
 # Files and directories that are not to be copied.
 exclude:
