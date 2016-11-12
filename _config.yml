@@ -49,6 +49,8 @@ order:
   - "/asking-people-for-money/"
   - "/personal-reflection-on-service-and-organizing/"
   - "/identifying-real-help/"
+  - "/information-as-a-source-of-power/"
+  - "/fostering-a-group-that-meets-its-members-needs/"
 
 # Files and directories that are not to be copied.
 exclude:
