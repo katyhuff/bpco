@@ -18,10 +18,10 @@
     <div class="container">
       <br/>
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-2">
           <a href="{{ site.bpco_book }}"><img src="{{ page.root }}/assets/img/bpco.jpg" alt="Building Powerful Community Organizations" /></a>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-10">
           <h1>
             <a href="{{ page.root }}">{{ site.title }}</a>
           </h1>
@@ -39,23 +39,9 @@
       </div>
       <br/>
       <div class="row">
-	<p><strong>Exercises</strong></p>
-        <div class="col-md-3">
-          <ol>
-            {% for permalink in site.order %}
-              {% for exercise in site.exercises %}
-                {% if exercise.permalink == permalink %}
-	          <li>
-                  {% if permalink == page.permalink %}<strong>{% else %}<a href="{{ exercise.url }}">{% endif %}
-                    {{ exercise.title }}
-                  {% if permalink == page.permalink %}</strong>{% else %}</a>{% endif %}
-                  </li>
-                {% endif %}
-              {% endfor %}
-            {% endfor %}
-          </ol>
+        <div class="col-md-2">
         </div>
-        <div class="col-md-9">
+        <div class="col-md-10">
 {{ content }}
         </div>
       </div>

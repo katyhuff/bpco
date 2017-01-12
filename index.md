@@ -3,4 +3,6 @@ layout: page
 root: .
 ---
 
-Lorem ipsum.
+## Exercises
+
+{% include exercise_list.html %}
