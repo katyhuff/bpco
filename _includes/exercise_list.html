@@ -4,5 +4,5 @@
 <ol>
 {% for permalink in site.order %}
   {% assign ex = site.exercises | where: "permalink", permalink | first %}
-  <li><a href="{{ ex.permalink }}">{{ ex.title }}</a></li>
+  <li><a href="{{ ex.permalink | relative_url }}">{{ ex.title }}</a></li>
 {% endfor %}
