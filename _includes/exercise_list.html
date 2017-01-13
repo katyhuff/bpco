@@ -1,8 +1,0 @@
-{% comment %}
-  Create list of all exercises in order.
-{% endcomment %}
-<ol>
-{% for permalink in site.order %}
-  {% assign ex = site.exercises | where: "permalink", permalink | first %}
-  <li><a href="{{ ex.permalink | absolute_url }}">{{ ex.title }}</a></li>
-{% endfor %}

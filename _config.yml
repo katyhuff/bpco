@@ -24,35 +24,6 @@ collections:
     output: true
     permalink: /:path/
 
-# Order of exercises.
-order:
-  - "/putting-your-vision-into-words/"
-  - "/finding-the-stories-that-guide-you/"
-  - "/looking-into-yourself/"
-  - "/finding-your-core-beliefs/"
-  - "/building-your-core-group/"
-  - "/crafting-a-mission-statement/"
-  - "/finding-your-structure-1/"
-  - "/finding-your-structure-2/"
-  - "/finding-your-structure-3/"
-  - "/finding-your-structure-4/"
-  - "/finding-your-structure-5/"
-  - "/finding-your-structure-6/"
-  - "/why-recruit/"
-  - "/personal-reasons-for-recruiting/"
-  - "/what-led-you-to-join/"
-  - "/whats-in-it-for-you/"
-  - "/how-to-plan-a-visit/"
-  - "/dividing-tasks/"
-  - "/creating-a-custom-leadership-plan/"
-  - "/look-inside-yourself/"
-  - "/asking-people-for-money/"
-  - "/personal-reflection-on-service-and-organizing/"
-  - "/identifying-real-help/"
-  - "/information-as-a-source-of-power/"
-  - "/fostering-a-group-that-meets-its-members-needs/"
-
 # Files and directories that are not to be copied.
 exclude:
   - Makefile
-  - bin

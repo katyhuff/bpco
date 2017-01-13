@@ -33,7 +33,11 @@
             For more information, please <a href="mailto:{{ site.email }}">contact the organizer</a>.
           </p>
           {% if page.title %}
-            <h2>{{ page.title }}</h2>
+            <h2>
+	      {% if page.previous %}<a href="{{page.previous.permalink | absolute_url}}">&laquo;</a>{% else %}&nbsp;{% endif %}
+	      {{ page.title }}
+	      {% if page.next %}<a href="{{page.next.permalink | absolute_url}}">&raquo;</a>{% else %}&nbsp;{% endif %}
+	    </h2>
           {% endif %}
         </div>
       </div>
